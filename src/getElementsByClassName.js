@@ -15,7 +15,6 @@ var getElementsByClassName = function(className) {
     }
     
     if (node.hasChildNodes()) {
-      //var children = node.childNodes;
       for(var i = 0; i < node.children.length; i++){
         helper(node.children[i]);
       }    
